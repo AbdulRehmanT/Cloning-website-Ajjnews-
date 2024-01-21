@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+.sub-container {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 80px;
+    height: 130px;
+}
+
+.a {
+    list-style-type: none;
+    font-style: italic;
+}
+
+.nav-bar {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-bar>li {
+    display: inline-block;
+    border-right: 1px solid;
+    position: relative;
+    padding: 0 8px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.nav {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.lg,.cg,.rg {
+    padding: 20px;
+    text-align: center;
+}
+.line{
+    border-bottom: 2px solid;
+    align-content: center;
+    width: 10%;
+}
+.a>li{
+    margin-bottom: 10px;
+
+}
